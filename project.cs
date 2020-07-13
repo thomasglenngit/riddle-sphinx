@@ -11,6 +11,13 @@ namespace Sphinx
       bool answer = true;
       string finalAnswer;
       while (answer == true)
+
+//       Console.WriteLine("\n20 random integers from -100 to 100:");
+// for (int ctr = 1; ctr <= 20; ctr++)
+// {
+//    Console.Write("{0,6}", rnd.Next(-100, 101));
+//    if (ctr % 5 == 0) Console.WriteLine();
+// }
       {
         Console.WriteLine("What is long, brown and sticky?");
         string userResponse1 = Console.ReadLine().ToLower();
